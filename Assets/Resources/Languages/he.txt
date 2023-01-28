@@ -1,0 +1,19 @@
+ENGLISH=English
+RUSSIAN=Russian
+HEBREW=Hebrew
+PLAY=Let's Play!
+CREDITS=Credits
+QUIT=Quit
+WATCH=Watch the story
+HARD=THE HARDEST GAME EVER???
+PAUSED=Paused
+RESUME=Resume
+LEVEL SELECT=Levels Selector
+MAIN=Main Menu
+LEVEL11=Use the gun
+and aim at the bad
+triangleswe with the mouse
+YES=Yes!
+LATER=Maybe later...
+SKIP=Skip>>
+BACK TO MENU=Back To Menu>>

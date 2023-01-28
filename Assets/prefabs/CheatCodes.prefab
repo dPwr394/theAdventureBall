@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1851883781705509341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851883781705509339}
+  - component: {fileID: 1851883781705509340}
+  - component: {fileID: 750579843}
+  - component: {fileID: 7923232942858176613}
+  - component: {fileID: 6409329287243981746}
+  m_Layer: 0
+  m_Name: CheatCodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1851883781705509339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851883781705509341}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7730487, y: -0.5057272, z: 80.267685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851883781705509340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851883781705509341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ef60d3123b3764591bb8fde1255c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sixtyNine: 1
+  weaponCode: 0
+  GunPrefab: {fileID: 0}
+  noliferCode: 0
+  noliferPrefab: {fileID: 0}
+  index: 0
+  Code:
+  - 6
+  - 9
+--- !u!114 &750579843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851883781705509341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ef60d3123b3764591bb8fde1255c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sixtyNine: 0
+  weaponCode: 1
+  GunPrefab: {fileID: 2135540318556438205, guid: 8f926ea2572db2549b2bebc3641e7a77,
+    type: 3}
+  noliferCode: 0
+  noliferPrefab: {fileID: 0}
+  index: 0
+  Code:
+  - g
+  - i
+  - v
+  - e
+  - m
+  - e
+  - a
+  - g
+  - u
+  - n
+--- !u!114 &7923232942858176613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851883781705509341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ef60d3123b3764591bb8fde1255c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sixtyNine: 0
+  weaponCode: 0
+  GunPrefab: {fileID: 0}
+  noliferCode: 1
+  noliferPrefab: {fileID: 333728016535261418, guid: 13ac4c4605443094fa4104973c7e520a,
+    type: 3}
+  index: 0
+  Code:
+  - n
+  - o
+  - l
+  - i
+  - f
+  - e
+  - r
+--- !u!114 &6409329287243981746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851883781705509341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebe99a88b5ec7144b8055b96c2ab6c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

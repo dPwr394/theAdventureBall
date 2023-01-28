@@ -1,0 +1,76 @@
+state("The_Adventure_Ball") {}
+
+startup
+{
+    vars.Log = (Action<object>)(output => print("[] " + output));
+    vars.Unity = Assembly.Load(File.ReadAllBytes(@"Components\UnityASL.bin")).CreateInstance("UnityASL.Unity");
+	
+	settings.Add("pick_one", true, "Pick ONE of the following:");
+	settings.Add("levels", false, "Split every level", "pick_one");
+}
+
+init
+{
+    vars.Unity.TryOnLoad = (Func<dynamic, bool>)(helper =>
+    {
+        var myClass = helper.GetClass("Assembly-CSharp", "LSData");
+
+        vars.Unity.Make<bool>(myClass.Static, myClass["isLoading"]).Name = "isLoadingScene";
+        vars.Unity.MakeString(myClass.Static, myClass["gameState"]).Name = "gameState";
+
+        vars.Unity.Make<int>(myClass.Static, myClass["levelIndex"]).Name = "levelIndex";
+
+        vars.Unity.Make<float>(myClass.Static, myClass["attemptTime"]).Name = "attemptTime";
+		vars.Unity.Make<int>(myClass.Static, myClass["attempts"]).Name = "attempts";
+        // ....
+
+        return true;
+    });
+
+    vars.Unity.Load(game);
+	
+}
+
+update
+{
+    if (!vars.Unity.Loaded) return false;
+
+    vars.Unity.Update();
+}
+
+start
+{
+    /* Leaving the main menu means starting the game, if you start the game with an in-game
+    * speedrun time of 0, you're clearly playing a reset file.
+    */
+    if (vars.Unity["gameState"].Current != "Main Menu" || vars.Unity["gameState"].Current != "Level Select") 
+    {
+        return true;
+    }
+}
+
+split
+{
+	if (settings["levels"]){
+		if (levelIndex.Changed && levelIndex >=2){
+		return true;
+	}
+	}
+}
+
+isLoading
+{
+    return vars.Unity["isLoading"].Current;
+}
+
+exit
+{
+    vars.Unity.Reset();
+}
+
+shutdown
+{
+    vars.Unity.Reset();
+}
+
+
