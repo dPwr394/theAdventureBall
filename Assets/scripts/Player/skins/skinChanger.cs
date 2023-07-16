@@ -72,12 +72,21 @@ public class skinChanger : MonoBehaviour
         if (sceneIndex != previousScene && sceneIndex >= 1)
         {
             ballFace = GameObject.Find("2");
+            if(ballFace == null)
+            {
+                ballFace = GameObject.Find("body");
+            }
             ballFace.GetComponent<SpriteRenderer>().sprite = skinFace;
 
             if (hideFaceEyes)
             {
                 eye1 = GameObject.Find("eys");
                 eye2 = GameObject.Find("eys (1)");
+                if(eye1 == null || eye2 == null)
+                {
+                    eye1 = GameObject.Find("eye1");
+                    eye2 = GameObject.Find("eye2");
+                }
                 eye1.GetComponent<SpriteRenderer>().sprite = NoEyes;
                 eye2.GetComponent<SpriteRenderer>().sprite = NoEyes;
             }
@@ -85,6 +94,11 @@ public class skinChanger : MonoBehaviour
             {
                 eye1 = GameObject.Find("eys");
                 eye2 = GameObject.Find("eys (1)");
+                if (eye1 == null || eye2 == null)
+                {
+                    eye1 = GameObject.Find("eye1");
+                    eye2 = GameObject.Find("eye2");
+                }
                 eye1.GetComponent<SpriteRenderer>().sprite = defaulteyes;
                 eye2.GetComponent<SpriteRenderer>().sprite = defaulteyes;
             }
