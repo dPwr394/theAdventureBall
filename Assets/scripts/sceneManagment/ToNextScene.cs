@@ -21,7 +21,8 @@ public class ToNextScene : MonoBehaviour {
 			LSData.isInLevel = false;
 			LSData.levelIndex = -1;
 			LSData.gameState = "Victory";
-        }
+			SceneManager.LoadScene(0);
+		}
         else
 		{
 			LSData.levelIndex += 1; 
