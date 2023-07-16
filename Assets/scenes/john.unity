@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4887,7 +4887,6 @@ GameObject:
   - component: {fileID: 743487273}
   - component: {fileID: 743487276}
   - component: {fileID: 743487275}
-  - component: {fileID: 743487274}
   m_Layer: 5
   m_Name: TMP SubMesh [LiberationSans SDF Material + LiberationSans SDF Atlas]
   m_TagString: Untagged
@@ -4907,29 +4906,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1712630918}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &743487274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 743487272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07994bfe8b0e4adb97d706de5dea48d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_spriteAsset: {fileID: 0}
-  m_material: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
-  m_isDefaultMaterial: 0
-  m_padding: 1.25
-  m_renderer: {fileID: 743487276}
-  m_meshFilter: {fileID: 743487275}
-  m_TextComponent: {fileID: 0}
 --- !u!33 &743487275
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7942,7 +7920,7 @@ GameObject:
   - component: {fileID: 1067493333}
   - component: {fileID: 1067493332}
   m_Layer: 0
-  m_Name: channels4_profile
+  m_Name: reference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8007,7 +7985,7 @@ Transform:
   m_GameObject: {fileID: 1067493331}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.01, y: 0.42, z: 1439.15}
-  m_LocalScale: {x: 0, y: 11.98194, z: 11.98194}
+  m_LocalScale: {x: 11.98194, y: 11.98194, z: 11.98194}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -8024,7 +8002,7 @@ GameObject:
   - component: {fileID: 1073911710}
   - component: {fileID: 1073911709}
   m_Layer: 0
-  m_Name: orenge (2)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10416,6 +10394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7e920b84a8e6442894201e591427fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableMouse: 0
+  enableKeyboard: 1
+  thisPlayer: {fileID: 0}
 --- !u!58 &1400331444
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10500,7 +10481,7 @@ SpriteRenderer:
   m_Size: {x: 3.05, y: 3.09}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1400331447
@@ -10890,7 +10871,7 @@ GameObject:
   - component: {fileID: 1434339805}
   - component: {fileID: 1434339804}
   m_Layer: 0
-  m_Name: orenge (1)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13068,7 +13049,7 @@ GameObject:
   - component: {fileID: 1675431271}
   - component: {fileID: 1675431270}
   m_Layer: 0
-  m_Name: orenge (3)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13566,11 +13547,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetGraphic
       value: 
-      objectReference: {fileID: 1712630920}
+      objectReference: {fileID: 0}
     - target: {fileID: 453355285400579051, guid: 861cb3ae427ec9644bf6bff9313c76d2,
         type: 3}
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.72156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2478835086822396764, guid: 861cb3ae427ec9644bf6bff9313c76d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5675026504832850459, guid: 861cb3ae427ec9644bf6bff9313c76d2,
         type: 3}
@@ -13591,7 +13577,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetGraphic
       value: 
-      objectReference: {fileID: 1712630917}
+      objectReference: {fileID: 0}
     - target: {fileID: 5675026504832850459, guid: 861cb3ae427ec9644bf6bff9313c76d2,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -13621,6 +13607,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507230012122433444, guid: 861cb3ae427ec9644bf6bff9313c76d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507230012122433444, guid: 861cb3ae427ec9644bf6bff9313c76d2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0012207031
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 861cb3ae427ec9644bf6bff9313c76d2, type: 3}
@@ -13654,18 +13650,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1712630912}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1712630917 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11463160, guid: 861cb3ae427ec9644bf6bff9313c76d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1712630912}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712630916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1712630918 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 22416212, guid: 861cb3ae427ec9644bf6bff9313c76d2,
@@ -13678,18 +13662,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1712630912}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1712630920 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11479004, guid: 861cb3ae427ec9644bf6bff9313c76d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1712630912}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712630919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1712630921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16438,7 +16410,7 @@ GameObject:
   - component: {fileID: 2090023753}
   - component: {fileID: 2090023752}
   m_Layer: 0
-  m_Name: orenge
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
