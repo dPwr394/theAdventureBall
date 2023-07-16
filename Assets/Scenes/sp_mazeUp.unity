@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 14fbfc32ea2950f47bffab43d46a2916, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 103375853}
   - component: {fileID: 103375852}
   m_Layer: 0
-  m_Name: orenge (2)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5523,7 +5523,7 @@ GameObject:
   - component: {fileID: 1691653621}
   - component: {fileID: 1691653620}
   m_Layer: 0
-  m_Name: orenge (3)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6126,7 +6126,7 @@ GameObject:
   - component: {fileID: 1911272026}
   - component: {fileID: 1911272025}
   m_Layer: 0
-  m_Name: orenge
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6234,7 +6234,7 @@ GameObject:
   - component: {fileID: 1920723981}
   - component: {fileID: 1920723980}
   m_Layer: 0
-  m_Name: orenge (1)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6479,7 +6479,7 @@ GameObject:
   - component: {fileID: 1940775675}
   - component: {fileID: 1940775674}
   m_Layer: 0
-  m_Name: "\u0421\u043D\u0438\u043C\u043E\u043A"
+  m_Name: car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

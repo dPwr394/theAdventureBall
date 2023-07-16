@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 54104649}
   - component: {fileID: 54104648}
   m_Layer: 0
-  m_Name: orenge (2)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 469183124}
   - component: {fileID: 469183123}
   m_Layer: 0
-  m_Name: orenge (3)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 689114208}
   - component: {fileID: 689114207}
   m_Layer: 0
-  m_Name: orenge (1)
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2631,7 +2631,7 @@ GameObject:
   - component: {fileID: 1807059895}
   - component: {fileID: 1807059894}
   m_Layer: 0
-  m_Name: orenge
+  m_Name: blocker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3380,7 +3380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 14fbfc32ea2950f47bffab43d46a2916, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
