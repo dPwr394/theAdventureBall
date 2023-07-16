@@ -9,13 +9,13 @@ https://d-pwr.itch.io/tab
 <br>
 
 # A farewell
-Hello,
+Hello,<br>
 This project was a great learning experience for me. I met new people and got better at understanding code because of the adventure ball.
 But as we all know, this game was primarily easy, messy, and not very enjoyable because of us throwing ideas in the air but not caring about sticking with one thing. Until last year.
-In 2022 White Square returned to play this silly little game. He thought of telling me about things he would like to see changed, from bugs to new features.
-I listened to him. In the beginning, I found it quite hard to get back to writing code for what I saw as old software no one cares about. but in a few weeks, it became, well... playable!
+<br>In 2022 White Square returned to play this silly little game. He thought of telling me about things he would like to see changed, from bugs to new features.
+<br>I listened to him. In the beginning, I found it quite hard to get back to writing code for what I saw as old software no one cares about. but in a few weeks, it became, well... playable!
 
-It was fun to play the adventure ball, there was livesplit support, most of the bugs were fixed and we had a good time on our discord server.
+It was pretty fun to play the adventure ball, there was livesplit support, most of the bugs were fixed and we had a good time on our discord server.
 So, "what went wrong?" you might ask, well, after a while (5~ months), we got too busy with other things. We WANTED to develop T.A.B yet could not find the right time to do so.
 
 Then, came the great burnout - We didn't have anything new no add or fix, I thought of a concept for a new game so T.A.B was not among my priorities.
