@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/tests/mouse.unity
     guid: 074a24526cd625c4db4b7ec9624b2caa
   - enabled: 0
-    path: Assets/Scenes/test.unity
+    path: Assets/Scenes/tests/test.unity
     guid: c24d71bc5276df04681be9cfb249c104
   - enabled: 1
-    path: Assets/Scenes/menu_main.unity
+    path: Assets/Scenes/menus/menu_main.unity
     guid: 259f442d44d4fa54a854f6ba7c09857a
   - enabled: 1
-    path: Assets/Scenes/menu_levels.unity
+    path: Assets/Scenes/menus/menu_levels.unity
     guid: e807c9cdabaf4da4c83951b370b2796b
   - enabled: 1
     path: Assets/Scenes/sp_basics.unity
@@ -27,22 +27,22 @@ EditorBuildSettings:
     path: Assets/Scenes/sp_sketch.unity
     guid: 2ef7eb5060258d0418a7bf58fd8fb2e5
   - enabled: 1
-    path: Assets/Scenes/level12.unity
+    path: Assets/Scenes/sp_12.unity
     guid: 0e4a698fc60436144a47ffd6ec9b9ce1
   - enabled: 1
-    path: Assets/Scenes/level2.unity
+    path: Assets/Scenes/sp_2.unity
     guid: 434466dfe25a55b42afcca86a7da4dda
   - enabled: 1
-    path: Assets/Scenes/level19.unity
+    path: Assets/Scenes/sp_19.unity
     guid: 728faa77071d64e41b5cbcd1780a0495
   - enabled: 1
-    path: Assets/Scenes/level7.unity
+    path: Assets/Scenes/sp_7.unity
     guid: cc78230ac9fb8c948adbf0d97dd343da
   - enabled: 1
-    path: Assets/Scenes/level3.unity
+    path: Assets/Scenes/sp_3.unity
     guid: 5bd57eed2c31f1a4ca40b5d1f529f416
   - enabled: 1
-    path: Assets/Scenes/level17.unity
+    path: Assets/Scenes/sp_17.unity
     guid: ae75ce380c111d84a838658b733602c1
   - enabled: 1
     path: Assets/Scenes/sp_Evil.unity
@@ -81,13 +81,13 @@ EditorBuildSettings:
     path: Assets/Scenes/sp_credits.unity
     guid: 64ad4a64f7e582a4aac428f9693c00a7
   - enabled: 1
-    path: Assets/Scenes/menu_settings.unity
+    path: Assets/Scenes/menus/menu_settings.unity
     guid: e333da4a0c5c19848b357af087043a8a
   - enabled: 0
     path: Assets/Scenes/Story - movie.unity
     guid: cb646f46b6c18904fa13c711c680ca0b
   - enabled: 0
-    path: Assets/Scenes/j.unity
+    path: Assets/Scenes/john.unity
     guid: 0bde84b5796752843b7d1b74fc03b5dd
   - enabled: 0
     path: Assets/Scenes/tests/skins/skins1.unity
