@@ -18,7 +18,7 @@ But as we all know, this game was primarily easy, messy, and not very enjoyable 
 It was pretty fun to play the adventure ball, there was livesplit support, most of the bugs were fixed and we had a good time on our discord server.
 So, "what went wrong?" you might ask, well, after a while (5~ months), we got too busy with other things. We WANTED to develop T.A.B yet could not find the right time to do so.
 
-Then, came the great burnout - We didn't have anything new no add or fix, I thought of a concept for a new game so T.A.B was not among my priorities.
+Then, came the great burnout - We didn't have anything new to add or fix, I thought of a concept for a new game so T.A.B was not among my priorities.
 This is the main reason why the adventure ball is now open source.
 
 yours truly,<BR>
